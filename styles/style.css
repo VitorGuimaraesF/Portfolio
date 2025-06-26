@@ -27,10 +27,11 @@ body {
 }
 
 .cabecalho {
-    padding: 2% 0 0 13%;
+    
 }
 
 .cabecalho__menu {
+    padding: 2% 0 0 13%;
     display: flex;
     gap: 80px;
 }
@@ -74,6 +75,7 @@ img {
 .apresentacao__conteudo__titulo {
     font-size: 36px;
     font-family: var(--fonte-primaria);
+    
     
 }
 
@@ -120,11 +122,13 @@ img {
 }
 
 .rodape {
-    padding: 24px;
+    width: 100%;
+    padding: 10px;
     color: var(--cor-principal);
     background-color: var(--cor-terciaria);
     text-align: center;
     font-family: var(--fonte-secundaria);
     font-size: 24px;
     font-weight: 400;
+    margin-left: auto;
 }
